@@ -1,0 +1,14 @@
+Model Metrics
+
+PARAMETERS 
+Optimizer: Adam
+Learning Rate: 0.001
+Loss Function: mean_squared_error
+Activation Function: Relu
+
+ARCHITECTURE 
+4 layer fully connected network:
+First layer: 72 nodes
+Second layer: 120 nodes
+Third layer: 40 nodes 
+Output layer: 1 node
