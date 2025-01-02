@@ -8,6 +8,8 @@ A useful dataset found on Kaggle containing 6+ features for model training https
 
 __2. Data Wrangling__
 
+[Data Wrangling Notebook]
+
 The dataset was first checked for null values and duplicates, revealing no missing data and only one duplicate, which was dropped. Categorical features—'sex,' 'smoker,' and 'region'—were one-hot encoded, creating binary columns for 'sex' and 'smoker' and three new columns for 'region.' Numerical features were standardized using StandardScaler from sklearn to ensure consistency in scale. The cleaned and preprocessed dataset was then split into versions for exploratory data analysis and model training.
 
 __3. EDA__
